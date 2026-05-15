@@ -1,0 +1,74 @@
+/* --- Master Responsive Fixes --- */
+
+/* (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .c-products__grid, .c-large-grid__row {
+        grid-template-columns: repeat(2, 1fr); /* 2 Columns */
+    }
+    
+    .c-info-section__row {
+        grid-template-columns: repeat(1, 1fr); /* Single Column */
+    }
+
+    .c-footer__top {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*  (max-width: 768px) - IMPORTANT */
+@media (max-width: 768px) {
+    /* Navbar Toggle */
+    .c-navbar__item{
+         display:none;
+    }
+    .c-navbar__logo {
+    width: 3.938rem;
+    height: 4.469rem;
+}
+
+    /* Hero Section Spacing */
+    .c-hero {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .c-info__desc {
+        font-size: 1.125rem;
+    height: 3.7rem;
+    overflow: hidden;
+}
+
+    .c-card__image {
+    width: 19.688rem;
+}
+
+    /* Gallery Adjustment */
+    .c-gallery-six__row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Newsletter Form Fix */
+    .c-newsletter-form__group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Footer Bottom Stack */
+    .c-footer__bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+/* 4. Button Hover States (Feedback Point 4) */
+.c-btn, .c-navbar__action-btn, .c-newsletter-form__submit {
+    transition: all 0.3s ease;
+}
+
+.c-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    filter: brightness(1.1);
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Round 1 Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Header / Navbar Section -->
+    <header class="c-header">
+        <div class="o-container">
+            <nav class="c-navbar">
+                <div class="c-navbar__logo">
+        <a href="">
+                        <img src="assets/icons/star-logo.png" alt="Company Logo">
+                    </a>
+                </div>
+                
+                <ul class="c-navbar__list">
+                    <li class="c-navbar__item">
+                        <a href="#about" class="c-navbar__link">About</a>
+                    </li>
+                    <li class="c-navbar__item">
+                        <a href="#services" class="c-navbar__link">Services</a>
+                        <ul class="c-nav__dropdown">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+                    </li>
+                    <li class="c-navbar__item">
+                        <a href="#products" class="c-navbar__link">Products</a>
+                    </li>
+                    <li class="c-navbar__item">
+                        <a href="#contact" class="c-navbar__link">Contact</a>
+                    </li>
+                
+                <li class="c-navbar__actions">
+        <button type="button" class="c-navbar__action-btn">
+            <i class='bx bx-search'></i>
+        </button> </li>
+        <li><button type="button" class="c-navbar__action-btn c-navbar__action-btn--cart">
+            <i class='bx bx-cart'></i>
+            <span class="c-navbar__cart-badge">2</span>
+        </button>
+    </li>
+    </ul>
+            </nav>
+            <!-- Expandable Search Overlay -->
+    <div id="search-overlay" class="c-search-overlay">
+        <div class="o-container c-search-overlay__wrapper">
+            
+            <div class="c-search-overlay__input-container">
+                <input type="text" placeholder="Search" class="c-search-overlay__input">
+                <div class="c-search-overlay__actions">
+                    <button class="c-search-overlay__submit-btn">
+                        <i class='bx bx-search'></i>
+                    </button>
+                   
+                </div>
+            </div>
+           <!-- <button id="search-close" class="c-search-overlay__close">✕</button>-->
+        </div>
+         
+    </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+       <section class="c-hero">
+    <div class="o-container">
+        <div class="c-hero__content">
+            <h1 class="c-hero__title">Lorem Ipsum.</h1>
+            <p class="c-hero__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a href="#" class="c-btn c-btn--primary">Button</a>
+        </div>
+    </div>
+</section>
+  <!-- About us Section -->
+      <section class="c-info">
+    <div class="o-container">
+        <div class="c-info__wrapper">
+            <h2 class="c-info__title">Simply dummy text.</h2>
+            <p class="c-info__desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+            </p>
+            <a href="#" class="c-btn c-btn--outline">Button Here</a>
+        </div>
+    </div>
+</section>
+<section class="c-products">
+    <div class="o-container">
+        <!-- Section Header -->
+        <div class="c-products__header">
+            <h2 class="c-products__title">It is a long established fact.</h2>
+            <a href="#" class="c-btn c-btn--primary">Shop All</a>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="c-products__tabs">
+            <li class="is-active">Tab 1</li>
+            <li>Tab 2</li>
+            <li>Tab 3</li>
+            <li>Tab 4</li>
+            <li>Tab 5</li>
+        </ul>
+
+        <!-- Products Grid -->
+        <div class="c-products__grid">
+            <!-- Card 1 -->
+            <div class="c-card">
+                <div class="c-card__image">
+                    <img src="assets/images/product-1.png" alt="Product">
+                    
+                </div>
+                <div class="c-card__content">
+                    <h3 class="c-card__title">Product 1</h3>
+                    <div class="c-card__price-wrapper">
+                    <span class="c-card__price c-card__price--new">$30.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card">
+                <div class="c-card__image">
+                    <img src="assets/images/product-2.png" alt="Product">
+                    <span class="c-card__badge">Sale</span>
+                </div>
+                <div class="c-card__content">
+                    <h3 class="c-card__title">Product 2</h3>
+                    <div class="c-card__price-wrapper">
+                        <span class="c-card__price c-card__price--old">$30.00</span>
+                    <span class="c-card__price c-card__price--new">$20.00</span>
+                </div>
+            </div>
+            </div>
+             <div class="c-card">
+                <div class="c-card__image">
+                    <img src="assets/images/product-3.png" alt="Product">
+                </div>
+                <div class="c-card__content">
+                    <h3 class="c-card__title">Product 3</h3>
+                    <div class="c-card__price-wrapper">
+                    <span class="c-card__price c-card__price--new">$30.00</span>
+                    </div>
+                </div>
+            </div>
+             <div class="c-card">
+                <div class="c-card__image">
+                    <img src="assets/images/product-4.png" alt="Product">
+                </div>
+                <div class="c-card__content">
+                    <h3 class="c-card__title">Product 4</h3>
+                    <div class="c-card__price-wrapper">
+                    <span class="c-card__price c-card__price--new">$30.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-products__controls">
+    <!-- Left Arrow -->
+   <div class="arrow-slider arrow-slider--left">
+    <img src="assets/icons/slider-arrow.png" class="icon-gradient" alt="Left">
+    <img src="assets/icons/slider-white-arrow.png" class="icon-white" alt="Left">
+</div>
+
+    <!-- Center Progress Line -->
+    <div class="c-slider-pagination">
+        <div class="c-slider-pagination__progress"></div>
+    </div>
+
+    <!-- Right Arrow -->
+    <div class="arrow-slider arrow-slider--right">
+    <img src="assets/icons/slider-arrow-right.png" class="icon-gradient" alt="Right">
+    <img src="assets/icons/slider-white-right-arrow.png" class="icon-white" alt="Right">
+</div>
+</div>
+    </div>
+</section>
+<section class="c-gallery-six">
+    <div class="c-gallery-six__row">
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-1.png" alt="1"></div>
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-2.png" alt="2"></div>
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-3.png" alt="3"></div>
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-4.png" alt="4"></div>
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-5.png" alt="5"></div>
+          <div class="c-gallery-six__item"><img src="assets/images/gallery-img-7.png" alt="1"></div>
+        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-6.png" alt="6"></div>
+      
+    </div>
+</section>
+<section class="c-large-grid">
+    <div class="o-container">
+    <div class="c-large-grid__row">
+        <div class="c-large-grid__item">
+            <img src="assets/images/card1.png" alt="">
+            <div class="c-large-grid__overlay">
+                <p>Card 1</p>
+                <button class="c-btn-outline">Learn More</button>
+            </div>
+        </div>
+         <div class="c-large-grid__item">
+            <img src="assets/images/card2.png" alt="">
+            <div class="c-large-grid__overlay">
+                <p>Card 2</p>
+                <button class="c-btn-outline">Learn More</button>
+            </div>
+        </div>
+         <div class="c-large-grid__item">
+            <img src="assets/images/card3.png" alt="">
+            <div class="c-large-grid__overlay">
+                <p>Card 3</p>
+                <button class="c-btn-outline">Learn More</button>
+            </div>
+        </div>
+         <div class="c-large-grid__item">
+            <img src="assets/images/card4.png" alt="">
+            <div class="c-large-grid__overlay">
+                <p>Card 4</p>
+                <button class="c-btn-outline">Learn More</button>
+            </div>
+        </div>
+    </div>
+     <div class="c-products__controls">
+    <!-- Left Arrow -->
+   <div class="arrow-slider arrow-slider--left">
+    <img src="assets/icons/slider-arrow.png" class="icon-gradient" alt="Left">
+    <img src="assets/icons/slider-white-arrow.png" class="icon-white" alt="Left">
+</div>
+
+    <!-- Center Progress Line -->
+    <div class="c-slider-pagination">
+        <div class="c-slider-pagination__progress"></div>
+    </div>
+
+    <!-- Right Arrow -->
+    <div class="arrow-slider arrow-slider--right">
+    <img src="assets/icons/slider-arrow-right.png" class="icon-gradient" alt="Right">
+    <img src="assets/icons/slider-white-right-arrow.png" class="icon-white" alt="Right">
+</div>
+</div>
+    </div>
+</section>
+<section class="c-info-section">
+    <div class="o-container" style="padding-top: 0;">
+        <div class="c-info-section__row">
+            
+            <!-- List Item 1 -->
+            <div class="c-info-section__item">
+                <div class="c-info-section__icon">
+                    <img src="assets/images/list1.png" alt="List 1">
+                </div>
+                <h3 class="c-info-section__title">List 1</h3>
+                <p class="c-info-section__text">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+                <a href="#" class="c-btn-link">Find More</a>
+            </div>
+
+            <!-- List Item 2 -->
+            <div class="c-info-section__item">
+                <div class="c-info-section__icon">
+                    <img src="assets/images/list2.png" alt="List 2">
+                </div>
+                <h3 class="c-info-section__title">List 2</h3>
+                <p class="c-info-section__text">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+                <a href="#" class="c-btn-link">Explore More</a>
+            </div>
+
+            <!-- List Item 3 -->
+            <div class="c-info-section__item">
+                <div class="c-info-section__icon">
+                    <img src="assets/images/list3.png" alt="List 3">
+                </div>
+                <h3 class="c-info-section__title">List 3</h3>
+                <p class="c-info-section__text">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+                <a href="#" class="c-btn-link">See More</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="c-footer">
+    <div class="o-container" style="padding-bottom:0;">
+        <div class="c-footer__top">
+            <!-- Newsletter -->
+            <div class="c-footer__newsletter">
+                <h2 class="c-footer__heading">Join our Newsletter</h2>
+                <p class="c-footer__subheading">Information for Evolution</p>
+                <form class="c-newsletter-form">
+                    <div class="c-newsletter-form__group">
+                        <input type="email" placeholder="Email Address" class="c-newsletter-form__input" required>
+                        <button type="submit" class="c-newsletter-form__submit"><span class="c-newsletter-form__icon">→</span></button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Links Grid -->
+            <div class="c-footer__links-grid">
+                <div class="c-footer__column">
+                    <h4>Manifest</h4>
+                    <ul>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Be Here Now</a></li>
+                    </ul>
+                </div>
+                <div class="c-footer__column">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="#">NFTs</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">Giving Back</a></li>
+                    </ul>
+                </div>
+                <div class="c-footer__column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">NFTs</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Shop All</a></li>
+                    </ul>
+                </div>
+                <div class="c-footer__column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">Help / FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Bar with Image Icons -->
+        <div class="c-footer__bottom">
+            <div class="c-footer__bottom-left">
+            <p class="c-footer__copyright">Copyright © 2026. All rights reserved.</p>
+            <p class="c-footer__author">Website by PixeloLabs</p></div>
+            <div class="c-footer__bottom-center">
+            <div class="c-footer__socials">
+                <a href="#"><img src="assets/icons/social-discord-initial@3x.png" alt="Discord"></a>
+                <a href="#"><img src="assets/icons/social-instagram-initial@3x.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/icons/social-facebook-initial@3x.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/icons/social-linkedin-initial@3x.png" alt="LinkedIn"></a>
+                <a href="#"><img src="assets/icons/social-youtube-initial@3x.png" alt="YouTube"></a>
+                <a href="#"><img src="assets/icons/social-twitter-initial@3x.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/icons/social-tiktok-initial@3x.png" alt="TikTok"></a>
+                <a href="#"><img src="assets/icons/social-threads-initial@3x.png" alt="Threads"></a>
+            </div>
+            </div>
+            <div class="c-footer__bottom-right">
+            <div class="c-footer__legal-links">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Accessibility Statement</a>
+      </div>
+    </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
