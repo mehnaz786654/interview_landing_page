@@ -142,7 +142,7 @@
 }
 .c-search-overlay {
     position: absolute;
-    top: 0;
+    top: 204px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -151,6 +151,7 @@
     align-items: center;
     transform: translateY(-100%);
     transition: transform 0.4s ease-in-out;
+    display: none;
 
    &.is-active {
         transform: translateY(0);
@@ -161,7 +162,8 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        pointer-events: none;
+        gap: 40px !important;
+          padding: 0.5rem 2.5rem !important;
     }
 
     &__input-container {
@@ -211,5 +213,8 @@
     color: white;
     font-size: 1.3rem;
     cursor: pointer;
+    margin-bottom: 35px;
+    font-weight: 300;
     }
 }
+.is-show{display:block}
