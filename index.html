@@ -4,739 +4,723 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Round 1 Task</title>
+    <title>Billie Bars</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
 <!-- Header / Navbar Section -->
-    <header class="c-header">
-        <div class="o-container">
-            <nav class="c-navbar">
-                <div class="c-navbar__logo">
-        <a href="">
-                        <img src="assets/icons/star-logo.png" alt="Company Logo">
-                    </a>
-                </div>
-                
-                <ul class="c-navbar__list">
-                    <li class="c-navbar__item">
-                        <a href="#about" class="c-navbar__link">About</a>
-                    </li>
-                    <li class="c-navbar__item">
-                        <a href="#services" class="c-navbar__link">Services</a>
-                        <ul class="c-nav__dropdown">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-                    </li>
-                    <li class="c-navbar__item">
-                        <a href="#products" class="c-navbar__link">Products</a>
-                    </li>
-                    <li class="c-navbar__item">
-                        <a href="#contact" class="c-navbar__link">Contact</a>
-                    </li>
-                    <li class="c-navbar__actions menu-burger">
-        <button type="button" class="c-navbar__action-btn">
-            <img src="assets/icons/menu-burger.png">
-        </button> </li>
-                
-                <li class="c-navbar__actions" onclick="searchoverlay();">
-        <button type="button" class="c-navbar__action-btn">
-            <i class='bx bx-search'></i>
-        </button> </li>
-        <li><button type="button" class="c-navbar__action-btn c-navbar__action-btn--cart">
-            <i class='bx bx-cart'></i>
-            <span class="c-navbar__cart-badge">2</span>
-        </button>
-    </li>
-    </ul>
-            </nav>
-            <!-- Expandable Search Overlay -->
-    <div id="searchOverlay" class="c-search-overlay">
-        <div class="o-container c-search-overlay__wrapper">
-            
-            <div class="c-search-overlay__input-container">
-                <input type="text" placeholder="Search" class="c-search-overlay__input">
-                <div class="c-search-overlay__actions">
-                    <button class="c-search-overlay__submit-btn">
-                        <i class='bx bx-search'></i>
-                    </button>
-                   
-                </div>
+    <header class="header">
+        <div class="topBar">
+        <div class="container-1440">
+                    <p>    
+                        <a>
+                           ALL FULL SETS SHIP FOR $50 (DOMESTIC ONLY)
+                       </a>    
+                    </p>
+                   <span class="top-bar-close-btn">&times;</span>
+                </div>    
             </div>
-            <button id="search-close" class="c-search-overlay__close" onclick="closesearchoverlay();">✕
-                
-            </button>
-        </div>
-         
-    </div>
+        <div class="main-header">
+        <div class="container-1440 flex-align-center">
+          <div class="header-logo relative">
+        <a href="">
+            <img src="assets/images/BillieBars_logo.png" class="logo" alt="BillieBars Logo"> </a>
+      </div>
+      <div class="mobile-hamburger">
+               <img src="assets/icons/icon-nav-menu-burger-white.png">
+            </div>
+            <div class="mobile-logo relative">
+        <a href="">
+            <img src="assets/icons/graphics-logo-white.png" class="logo" alt="BillieBars Logo"> </a>
+      </div>
+      <div class="navbar middle-menu flex-align-center">
+        <nav class="main-menu">
+<ul class="main-nav-list flex-justify-center">
+    <li><a href=""><span>Shop</span></a></li>
+    <li><a href=""><span></span>Build Your Billie</span></a></li>
+    <li><a href=""><span></span>Installation & Guide</span></a></li>
+    <li><a href=""><span></span>about</span></a></li>
+</ul>
+        </nav>
+      </div> 
+      <ul class="right-nav flex-align-center ">
+        <li>
+            <a>
+                <img src="assets/icons/icon-nav-search-white.png">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="assets/icons/icon-nav-account-white.png">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="assets/icons/icon-nav-cart-empty-white.png">
+            </a>
+        </li>
+      </ul>
+       
+     </div>
         </div>
     </header>
 
     <main>
         <!-- Hero Section -->
-       <section class="c-hero">
-    <div class="o-container">
-        <div class="c-hero__content">
-            <h1 class="c-hero__title">Lorem Ipsum.</h1>
-            <p class="c-hero__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       <div class="hero-banner hero-section-slide">
+        <div class="img-section mobile-hero-img">
+                <img src="assets/images/hero-banner.png"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+                <div class="img-section">
+                <img src="assets/images/hero-banner.png"></div>
+        <div class="content text-center">
+              <div class="">
+                    <h6 class="h6">We're Truck People</h6>
+                    <h1 class="h1 title">The Most Versatile <br>
+                        Truck Bed Bars Available</h1>
+                    <p class="large">We make high-strength aluminum crossbars that allow you to best utilize the space above your truck bed.</p>
+                    
+                    <a class="btn-primary" href="" title="Shop Now">shop now
+                    </a></div>
+</div>
+</div>
+ <div class="swiper-slide ">
+    <div class="img-section">
+    <img src="assets/images/hero-banner.png"></div>
+        <div class="content text-center">
+              <div class="">
+                    <h6 class="h6">We're Truck People</h6>
+                    <h1 class="h1 title">The Most Versatile <br>
+                        Truck Bed Bars Available</h1>
+                    <p class="large">We make high-strength aluminum crossbars that allow you to best utilize the space above your truck bed.</p>
+                    
+                    <a class="btn-primary" href="" title="Shop Now">shop now1
+                    </a>
+                    </div>
+</div>
+</div>
+
+</div>
+  <div class="hero-slider-button-prev slider-button">
+    <img src="assets/icons/icon-ui-arrow-slider.png">
+</div>
+<div class="hero-slider-button-next slider-button">
+    <img src="assets/icons/icon-ui-arrow-slider2.png">
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<!--mobile-hero-content-->
+<div class="mobile-hero-section">
+<div class="container-1440 mobile-hero-slider">
+    <div class="swiper-wrapper">
+        <div class="content text-center swiper-slide">
+              
+                    <h6 class="h6">We're Truck People</h6>
+                    <h1 class="h1 title">The Most Versatile <br>
+                        Truck Bed Bars Available</h1>
+                    <p class="large">We make high-strength aluminum crossbars that allow you to best utilize the space above your truck bed.</p>
+                    
+                    <a class="btn-primary" href="" title="Shop Now">shop now
+                    </a>
+    </div>
+    <div class="content text-center swiper-slide">
+              
+                    <h6 class="h6">We're Truck People</h6>
+                    <h1 class="h1 title">The Most Versatile <br>
+                        Truck Bed Bars Available</h1>
+                    <p class="large">We make high-strength aluminum crossbars that allow you to best utilize the space above your truck bed.</p>
+                    
+                    <a class="btn-primary" href="" title="Shop Now">shop now1
+                    </a>
+    </div>
+    </div>
+    <div class="hero-swiper-pagination"></div>
+</div>
+</div>
+<!--marquee section-->
+<div class="marquee-wrapper">
+    <div class="marquee">
+        <p>American made  ///  High strength steel brackets  ///  Black anodized aluminum bars  ///  RTV in the hard to reach places to prevent rust  ///  Easy installation  ///  Light weight  ///</p>
+        
+        <p>American made  ///  High strength steel brackets  ///  Black anodized aluminum bars  ///  RTV in the hard to reach places to prevent rust  ///  Easy installation  ///  Light weight  ///</p>
+        
+        <p>American made  ///  High strength steel brackets  ///  Black anodized aluminum bars  ///  RTV in the hard to reach places to prevent rust  ///  Easy installation  ///  Light weight  ///</p>
+        
+        <p>American made  ///  High strength steel brackets  ///  Black anodized aluminum bars  ///  RTV in the hard to reach places to prevent rust  ///  Easy installation  ///  Light weight  ///</p>
+    </div>
+</div>
+<!--three column section-->
+<div class="three-column-section">
+    <div class="three-column-slider" style="overflow: hidden;">
+        <div class="swiper-wrapper">
             
-            <a href="#" class="c-btn c-btn--primary">Button</a>
-        </div>
-    </div>
-</section>
-  <!-- About us Section -->
-      <section class="c-info">
-    <div class="o-container">
-        <div class="c-info__wrapper">
-            <h2 class="c-info__title">Simply dummy text.</h2>
-            <p class="c-info__desc" id="descContainer">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
-            </p>
-            <div class="c-info__toggle" onclick="toggleDescription()">
-                <span id="toggleText">Read More</span>
-                <img src="assets/icons/arrow-dropdown.png" id="toggleArrow" alt="arrow">
+            <div class="swiper-slide inner-box">
+                <div class="content">
+                    <h3 class="h3">For Biking</h3>
+                  <a class="link" href="" title="Shop Collection →">Shop Collection →
+                    </a>
+                    
+                </div>
+                <a class="image-section" href="">
+                    <img src="assets/images/biking.png">
+                </a>
             </div>
-            <a href="#" class="c-btn c-btn--outline">Button Here</a>
+            
+            <div class="swiper-slide inner-box">
+                <div class="content">
+                    <h3 class="h3">For Rooftop Tents</h3>
+                  <a class="link" href="" title="Shop Collection →">Shop Collection →
+                    </a>
+                    
+                </div>
+                <a class="image-section" href="">
+                    <img Tents" src="assets/images/rooftoptents.png">
+                </a>
+            </div>
+            
+           <div class="swiper-slide inner-box">
+                <div class="content">
+                    <h3 class="h3">For Watersports</h3>
+                  <a class="link" href="" title="Shop Collection →">Shop Collection →
+                    </a>
+                    
+                </div>
+                <a class="image-section" href="">
+                    <img src="assets/images/watersports.png">
+                </a>
+            </div> 
+            <div class="swiper-slide inner-box">
+                <div class="content">
+                    <h3 class="h3">For Watersports</h3>
+                  <a class="link" href="" title="Shop Collection →">Shop Collection →
+                    </a>
+                    
+                </div>
+                <a class="image-section" href="">
+                    <img src="assets/images/watersports.png">
+                </a>
+            </div> 
+            <div class="swiper-slide inner-box">
+                <div class="content">
+                    <h3 class="h3">For Watersports</h3>
+                  <a class="link" href="" title="Shop Collection →">Shop Collection →
+                    </a>
+                    
+                </div>
+                <a class="image-section" href="">
+                    <img src="assets/images/watersports.png">
+                </a>
+            </div> 
         </div>
+        <!-- Left Arrow -->
+   <div class="three-column-slider-button-prev slider-button">
+    <img src="assets/icons/icon-ui-arrow-box-white-fill.png">
+</div>
+<div class="three-column-slider-button-next slider-button">
+    <img src="assets/icons/icon-ui-arrow-box-white-fill-next.png">
+</div>
     </div>
-</section>
-<section class="c-products">
-    <div class="o-container">
-        <!-- Section Header -->
-        <div class="c-products__header">
-            <h2 class="c-products__title">It is a long established fact.</h2>
-            <div class="c-dropdown-wrapper">
-    <div class="c-dropdown-custom" id="customDropdown">
-  <div class="c-dropdown-custom__selected">
-    <span class="c-dropdown-custom__text">Tab 1</span>
+</div>
+<!--Full video section-->
+<div class="full-width-video-section">
+  <div class="image-section">
+        <img src="assets/images/bitmap.png">
     
   </div>
-  <ul class="c-dropdown-custom__options">
-    <li data-value="tab1" class="is-selected">Tab 1</li>
-    <li data-value="tab2">Tab 2</li>
-    <li data-value="tab3">Tab 3</li>
-    <li data-value="tab4">Tab 4</li>
-    <li data-value="tab5">Tab 5</li>
-  </ul>
-</div>
-    <img src="assets/icons/arrow-dropdown-white.png" class="c-products__dropdown-arrow" alt="arrow">
-</div>
-            <a href="#" class="c-btn c-btn--primary shop_all_btn">Shop All</a>
-        </div>
 
-        <!-- Tabs -->
-        <ul class="c-products__tabs">
-            <li class="is-active" data-tab="tab1">Tab 1</li>
-            <li class="" data-tab="tab2">Tab 2</li>
-            <li class="" data-tab="tab3">Tab 3</li>
-            <li class="" data-tab="tab4">Tab 4</li>
-            <li class="" data-tab="tab5">Tab 5</li>
-        </ul>
-
-        <!-- Products Grid -->
-        <div class="c-products__grid mySwiper">
-            <div class="swiper-wrapper">
-            <!-- Card 1 -->
-            <div class="c-card swiper-slide" data-tab-group="tab1">
-                <div class="c-card__image">
-                    <img src="assets/images/product-1.png" alt="Product">
-                    
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 1</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab1">
-                <div class="c-card__image">
-                    <img src="assets/images/product-2.png" alt="Product">
-                    
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 2</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--old">$30.00</span>
-                    <span class="c-card__price c-card__price--new">$20.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab1">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                    
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab1">
-                <div class="c-card__image">
-                    <img src="assets/images/product-4.png" alt="Product">
-                    
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 4</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab2">
-                <div class="c-card__image">
-                    <img src="assets/images/product-2.png" alt="Product">
-                    <span class="c-card__badge">Sale</span>
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 2</h3>
-                    <div class="c-card__price-wrapper">
-                        <span class="c-card__price c-card__price--old">$30.00</span>
-                    <span class="c-card__price c-card__price--new">$20.00</span>
-                </div>
-            </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab3">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab4">
-                <div class="c-card__image">
-                    <img src="assets/images/product-4.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 4</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-             <div class="c-card swiper-slide" data-tab-group="tab5">
-                <div class="c-card__image">
-                    <img src="assets/images/product-3.png" alt="Product">
-                </div>
-                <div class="c-card__content">
-                    <h3 class="c-card__title">Product 3</h3>
-                    <div class="c-card__price-wrapper">
-                    <span class="c-card__price c-card__price--new">$30.00</span>
-                    </div>
-                </div>
-            </div>
-            </div>
+  <div class="container-1280 text-center ">
+    
+      <a class="video-icon" href="">
+<img src="assets/images/play-button.png">
+      </a>
+    <h3 class="h3">What Are BillieBars?</h3>
+    
+  </div>
+</div>
+<div class="accessories-section">
+    <div class="container-1440 flex">
+        
             
-               
+            <div class="accessories-info-box">
+                <div class="inner-section">
+                <h2 class="h2">Accessories</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur libero nunc, quis malesuada justo aliquam non. Phasellus nec justo venenatis ex hendrerit tincidunt at in lacus.</p>
+                <a href="#" class="btn-secondary">SHOP ALL</a></div>
+            </div>
+
+            <div class="accessories-cards swiper-card">
+                 <div class="swiper-wrapper" style="align-items: stretch;">
+
+                <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <img src="assets/images/placeholder-image-circle-1.png">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Tacoma Bed Stiffy's and Tailgate Cover Kit<p> (2005-2022)</p></h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png">
+                        </div>
+                        <p class="link">$475.00 </p>
+                    </div>
+                </div>
+
+                <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <span class="tag sale">SALE</span>
+                        <img src="assets/images/placeholder-image-circle-2.png" alt="Tacoma Tailgate Cover">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Tacoma Tailgate Cover<p> (2005-2022)</p></h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png">
+                        </div>
+                        <p class="link">$200.00
+                            <span>$275.00</span> 
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <img src="assets/images/placeholder-image-circle-3.png" alt="Molle Panel">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Molle Panel</h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png">
+                        </div>
+                        <p class="link">$185.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <span class="tag new">NEW</span>
+                        <img src="assets/images/placeholder-image-circle-4.png">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Mid Height Molle Panel</h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png">
+                        </div>
+                        <p class="link">$225.00</p>
+                    </div>
+                </div>
+                    <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <img src="assets/images/placeholder-image-circle-1.png">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Tacoma Bed Stiffy's and Tailgate Cover Kit<p> (2005-2022)</p></h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png"></div>
+                        <p class="link">$475.00</p>
+                    </div>
+                </div>
+                    <div class="product-card swiper-slide">
+                    <div class="image-section">
+                        <img src="assets/images/placeholder-image-circle-1.png" alt="Tacoma Bed Stiffy's">
+                    </div>
+                    <div class="content">
+                        <h4 class="product-title">Tacoma Bed Stiffy's and Tailgate Cover Kit <p>(2005-2022)</p></h4>
+                        <div class="rating-stars">
+                            <img src="assets/images/graphics-reviews-stars-number.png">
+                        </div>
+                        <p class="link">$475.00</p>
+                    </div>
+                </div>
+
+            </div> 
+         <div class="swiper-card-button-next">
+            <img src="assets/icons/slider-arrow-icon.png">
+         </div>
+        </div>
+    </div>
+</div>
+        <div class="half-image-half-content-section">
+    
+      <div class="half-image-half-content">
+        <div class="container-1440 flex-wrap">
+          
+            <div class="image-section">
+              <img class="" src="assets/images/Tonneau-Cover-Fitment.png">
+            </div>
+          
+          <div class="content">
+            <h2 class="h2">Tonneau Cover Fitment</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor, ligula ac vulputate euismod, sapien odio fermentum dolor, nec suscipit erat felis nec leo. Nulla ut nisl ut ante accumsan lacinia rhoncus sagittis nibh. Morbi vehicula eu magna ac pulvinar. Phasellus rhoncus eros elit, id porttitor tellus porttitor sit.</p>
+            
+              <a class="btn-tertiary" href="">view the guide
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    
+      <div class="half-image-half-content reverse-row">
+        <div class="container-1440 flex-wrap">
+          
+            <div class="image-section">
+              <img class="" src="assets/images/Built-your-life.png">
+            </div>
+          
+          <div class="content">
+            <h2>Built for your life</h2>
+            <p>Thoughtfully designed with care. BillieBars are crafted from the most durable materials in the game. Easily remove and install them as often as you'd like without wear and tear.</p>
+            
+              <a class="btn-tertiary">shop billiebars
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    
+  </div>
+  <div class="full-width-image-section">
+    
+    <div class="seal-img">
+        <img src="assets/icons/graphics-seal.png">
+    </div>
+    
+    <div class="image-section">
+            <img src="assets/images/quote-road.png">
+        
+    </div>
+    <div class="container-760 text-center">
+        <h2>“Versatile is an understatement.”</h2>
+        
+        <div class="rating5-img">
+            <img src="assets/images/reviews-stars-5.png">
+        </div>
+        
+        <p>They're perfectly over-built and I'm certain you'd break your truck before bending these bars. There are so many possibilities to use them too. 12/10 recommended.</p>
+        <span>- Ronnie</span>
+        
+        <a class="btn-primary">read our reviews
+        </a>
+        
+    </div>
+</div>
+<div class="three-column-image-section">
+    <div class="container-1340 ">
+      <ul class="flex-wrap">
+           <li>
+            <div>
+              <a class="image-section">
+                  <img src="assets/images/placeholder-image1.png">
+                </a>
+            <div class="content">
+            <h3>Installation Videos</h3>
+             <a class="link">Watch Now →</a>
+                
+              </div>
+            </div>
+          </li>
+        
+          <li>
+            <div>
               
-        </div>
-        <div class="c-products__controls">
-    <!-- Left Arrow -->
-   <div class="arrow-slider arrow-slider--left swiper-button-prev">
-    <img src="assets/icons/slider-arrow.png" class="icon-gradient" alt="Left">
-    <img src="assets/icons/slider-white-arrow.png" class="icon-white" alt="Left">
-</div>
-
-    <!-- Center Progress Line -->
-    <div class="c-slider-pagination swiper-pagination">
+                <a class="image-section">
+                  <img src="assets/images/placeholder-image2.png">
+                </a>
+              
+              <div class="content">
+               <h3>About Truck Beds</h3>
+              <a class="link">Learn More →</a>
+                
+              </div>
+            </div>
+          </li>
         
+          <li>
+            <div>
+              
+                <a class="image-section">
+                  <img src="assets/images/placeholder-image3.png">
+                </a>
+              
+              <div class="content">
+              <h3>About Rooftop Tents</h3>
+               <a class="link" >Learn More →</a>
+                
+              </div>
+            </div>
+          </li>
+        
+      </ul>
     </div>
-
-    <!-- Right Arrow -->
-    <div class="arrow-slider arrow-slider--right swiper-button-next">
-    <img src="assets/icons/slider-arrow-right.png" class="icon-gradient" alt="Right">
-    <img src="assets/icons/slider-white-right-arrow.png" class="icon-white" alt="Right">
+  </div>
+  <div class="insta-section">
+    <ul class="flex-wrap">
+        <li class="title">
+            <a> <img src="assets/images/insta-main.png">
+                <div class="content">
+                    <div>
+                    <img src="assets/icons/icon-social-instagram-green.png" style="position: relative;"></div>
+               <h2 class="h3">Billie in the Wild</h2>
+              <span class="link--primary">
+                        Follow us @billie_bars
+                    </span>
+                    
+                </div>
+            </a>
+        </li>
+      <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-2.png">
+            </a>
+        </li>
+     <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-5.png">
+            </a>
+        </li>
+       <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-4.png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-8.png">
+            </a>
+        </li>
+        <li>
+            <a  target="_blank"> <img src="assets/images/group-2 .png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-7.png">
+            </a>
+        </li>
+        <li>
+            <a target="_blank"> <img src="assets/images/group-2-copy-3.png">
+            </a>
+        </li>   
+    </ul>
 </div>
-</div>
-    </div>
-</section>
- <!-- Swiper -->
-  
-<section class="c-gallery-six">
-    <div class="c-gallery-six__row">
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-1.png" alt="1"></div>
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-2.png" alt="2"></div>
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-3.png" alt="3"></div>
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-4.png" alt="4"></div>
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-5.png" alt="5"></div>
-          <div class="c-gallery-six__item"><img src="assets/images/gallery-img-7.png" alt="1"></div>
-        <div class="c-gallery-six__item"><img src="assets/images/gallery-img-6.png" alt="6"></div>
+</main>
+<footer>
+  <div class="container-1440 flex-wrap main-footer">
+    <!-- Newsletter-section-->
+    <div class="newsletter-section">
+      <h3>Sign Up & Get Involved</h3>
       
-    </div>
-</section>
-<section class="c-large-grid">
-    <div class="o-container">
-    <div class="c-large-grid__row my-grid-swipper">
-        <div class="swiper-wrapper">
-        <div class="c-large-grid__item swiper-slide">
-            <img src="assets/images/card1.png" alt="">
-            <div class="c-large-grid__overlay">
-                <p>Card 1</p>
-                <button class="c-btn-outline">Learn More</button>
-            </div>
-        </div>
-         <div class="c-large-grid__item swiper-slide">
-            <img src="assets/images/card2.png" alt="">
-            <div class="c-large-grid__overlay">
-                <p>Card 2</p>
-                <button class="c-btn-outline">Learn More</button>
-            </div>
-        </div>
-         <div class="c-large-grid__item swiper-slide">
-            <img src="assets/images/card3.png" alt="">
-            <div class="c-large-grid__overlay">
-                <p>Card 3</p>
-                <button class="c-btn-outline">Learn More</button>
-            </div>
-        </div>
-         <div class="c-large-grid__item swiper-slide">
-            <img src="assets/images/card4.png" alt="">
-            <div class="c-large-grid__overlay">
-                <p>Card 4</p>
-                <button class="c-btn-outline">Learn More</button>
-            </div>
-        </div></div>
-    </div>
-     <div class="c-products__controls">
-    <!-- Left Arrow -->
-   <div class="arrow-slider arrow-slider--left swiper-grid-button-prev">
-    <img src="assets/icons/slider-arrow.png" class="icon-gradient" alt="Left">
-    <img src="assets/icons/slider-white-arrow.png" class="icon-white" alt="Left">
-</div>
-
-    <!-- Center Progress Line -->
-    <div class="c-slider-pagination swiper-grid-pagination">
-        
-    </div>
-
-    <!-- Right Arrow -->
-    <div class="arrow-slider arrow-slider--right swiper-grid-button-next">
-    <img src="assets/icons/slider-arrow-right.png" class="icon-gradient" alt="Right">
-    <img src="assets/icons/slider-white-right-arrow.png" class="icon-white" alt="Right">
-</div>
-</div>
-    </div>
-</section>
-<section class="c-info-section">
-    <div class="o-container" style="padding-top: 0;">
-        <div class="c-info-section__row my-list-swipper">
-             <div class="swiper-wrapper">
-            <!-- List Item 1 -->
-            <div class="c-info-section__item swiper-slide">
-                <div class="c-info-section__icon">
-                    <img src="assets/images/list1.png" alt="List 1">
-                </div>
-                <h3 class="c-info-section__title">List 1</h3>
-                <p class="c-info-section__text">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                </p>
-                <a href="#" class="c-btn-link">Find More</a>
-            </div>
-
-            <!-- List Item 2 -->
-            <div class="c-info-section__item swiper-slide">
-                <div class="c-info-section__icon">
-                    <img src="assets/images/list2.png" alt="List 2">
-                </div>
-                <h3 class="c-info-section__title">List 2</h3>
-                <p class="c-info-section__text">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                </p>
-                <a href="#" class="c-btn-link">Explore More</a>
-            </div>
-
-            <!-- List Item 3 -->
-            <div class="c-info-section__item swiper-slide">
-                <div class="c-info-section__icon">
-                    <img src="assets/images/list3.png" alt="List 3">
-                </div>
-                <h3 class="c-info-section__title">List 3</h3>
-                <p class="c-info-section__text">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                </p>
-                <a href="#" class="c-btn-link">See More</a>
-            </div>
-            </div>
-            
-
-        </div>
-         <div class="c-products__controls  list-control-slider">
-    <!-- Left Arrow -->
-   <div class="arrow-slider arrow-slider--left swiper-list-button-prev">
-    <img src="assets/icons/slider-arrow.png" class="icon-gradient" alt="Left">
-    <img src="assets/icons/slider-white-arrow.png" class="icon-white" alt="Left">
-</div>
-
-    <!-- Center Progress Line -->
-    <div class="c-slider-pagination swiper-list-pagination">
-        
-    </div>
-
-    <!-- Right Arrow -->
-    <div class="arrow-slider arrow-slider--right swiper-list-button-next">
-    <img src="assets/icons/slider-arrow-right.png" class="icon-gradient" alt="Right">
-    <img src="assets/icons/slider-white-right-arrow.png" class="icon-white" alt="Right">
-</div>
-</div>
-    </div>
-</section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer class="c-footer">
-    <div class="o-container" style="padding-bottom:0;">
-        <div class="c-footer__top">
-            <!-- Newsletter -->
-            <div class="c-footer__newsletter">
-                <h2 class="c-footer__heading">Join our Newsletter</h2>
-                <p class="c-footer__subheading">Information for Evolution</p>
-                <form class="c-newsletter-form">
-                    <div class="c-newsletter-form__group">
-                        <input type="email" placeholder="Email Address" class="c-newsletter-form__input" required>
-                        <button type="submit" class="c-newsletter-form__submit"><span class="c-newsletter-form__icon">→</span></button>
-                    </div>
-                </form>
-            </div>
-            <div class="c-footer__accordion">
-    <div class="c-footer__node first-node-child" onclick="togglemanifest()">
-        <div class="c-footer__node-header">
-            <span>Manifest</span>
-            <img src="assets/icons/slider-arrow-right.png" class="c-footer__node-icon" alt="arrow">
-        </div>
-        <ul class="c-footer__node-content" id="manifestlist">
-            <li><a href="#">Our Vision</a></li>
-            <li><a href="#">The Team</a></li>
-            <li><a href="#">History</a></li>
-        </ul>
-    </div>
-
-    <div class="c-footer__node" onclick="toggleprojects()">
-        <div class="c-footer__node-header">
-            <span>Projects</span>
-            <img src="assets/icons/slider-arrow-right.png" class="c-footer__node-icon" alt="arrow">
-        </div>
-        <ul class="c-footer__node-content" id="projectslist">
-            <li><a href="#">Web Apps</a></li>
-            <li><a href="#">Mobile Apps</a></li>
-        </ul>
-    </div>
-
-    <div class="c-footer__node" onclick="toggleproducts()">
-        <div class="c-footer__node-header">
-            <span>Products</span>
-            <img src="assets/icons/slider-arrow-right.png" class="c-footer__node-icon" alt="arrow">
-        </div>
-        <ul class="c-footer__node-content" id="productslist">
-            <li><a href="#">E-commerce</a></li>
-            <li><a href="#">SaaS Tools</a></li>
-        </ul>
-    </div>
-
-    <div class="c-footer__node" onclick="togglesupport()">
-        <div class="c-footer__node-header">
-            <span>Support</span>
-            <img src="assets/icons/slider-arrow-right.png" class="c-footer__node-icon" alt="arrow">
-        </div>
-        <ul class="c-footer__node-content" id="supportlist">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQs</a></li>
-        </ul>
-    </div>
-</div>
-
-            <!-- Links Grid -->
-            <div class="c-footer__links-grid">
-                <div class="c-footer__column">
-                    <h4>Manifest</h4>
-                    <ul>
-                        <li><a href="#">Mission & Vision</a></li>
-                        <li><a href="#">Be Here Now</a></li>
-                    </ul>
-                </div>
-                <div class="c-footer__column">
-                    <h4>Projects</h4>
-                    <ul>
-                        <li><a href="#">NFTs</a></li>
-                        <li><a href="#">Roadmap</a></li>
-                        <li><a href="#">Giving Back</a></li>
-                    </ul>
-                </div>
-                <div class="c-footer__column">
-                    <h4>Products</h4>
-                    <ul>
-                        <li><a href="#">Apparel</a></li>
-                        <li><a href="#">NFTs</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Shop All</a></li>
-                    </ul>
-                </div>
-                <div class="c-footer__column">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Partnerships</a></li>
-                        <li><a href="#">Help / FAQs</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Bar with Image Icons -->
-        <div class="c-footer__bottom">
-             <div class="c-footer__bottom-center">
-            <div class="c-footer__socials">
-                <a href="#"><img src="assets/icons/social-discord-initial@3x.png" alt="Discord"></a>
-                <a href="#"><img src="assets/icons/social-instagram-initial@3x.png" alt="Instagram"></a>
-                <a href="#"><img src="assets/icons/social-facebook-initial@3x.png" alt="Facebook"></a>
-                <a href="#"><img src="assets/icons/social-linkedin-initial@3x.png" alt="LinkedIn"></a>
-                <a href="#"><img src="assets/icons/social-youtube-initial@3x.png" alt="YouTube"></a>
-                <a href="#"><img src="assets/icons/social-twitter-initial@3x.png" alt="Twitter"></a>
-                <a href="#"><img src="assets/icons/social-tiktok-initial@3x.png" alt="TikTok"></a>
-                <a href="#"><img src="assets/icons/social-threads-initial@3x.png" alt="Threads"></a>
-            </div>
-            </div>
-            <div class="c-footer__bottom-left">
-            <p class="c-footer__copyright">Copyright © 2026. All rights reserved.</p>
-            <p class="c-footer__author">Website by PixeloLabs</p></div>
-           
-            <div class="c-footer__bottom-right">
-            <div class="c-footer__legal-links">
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Accessibility Statement</a>
+      <p>Join our email list for special promotions, new product announcements and more.</p>
+  
+    <div class="newsletter-form">
+           <form action="#" method="post">
+          <input type="email" value="" name="EMAIL" class="email" aria-label="email" placeholder="Email Address"
+            required>
+          <button type="button" >Submit →</button>
+        </form>
       </div>
     </div>
-        </div>
+    <!-- Footer Menu -->
+    <div class="main-footer__nav flex-wrap">
+        <div class="footer-links">
+        <p class="accordion-toggle">
+       <a href="" title="Shop">   Shop</a>
+       <img src="assets/icons/icon-ui-arrow-dropdown-white.png">
+        </p>
+        <ul class="accordion-content">
+          
+          <li><a href="" title="Truck Bed Bar Racks">Truck Bed Bar Racks</a></li>
+         <li><a href="" title="Accessories">Accessories</a></li>
+          <li><a href="" title="Apparel">Apparel</a></li>
+          <li><a href="" title="Shop By Activity">Shop By Activity</a></li>
+          
+          <li><a href="" title="Shop By Truck">Shop By Truck</a></li>
+          
+          <li><a href="" title="Build Your Billie">Build Your Billie</a></li>
+          
+        </ul>
+        
+      </div>
+      
+      
+      <div class="footer-links">
+        <p class="accordion-toggle">
+       <a href="" title="Installation & Guides"> Installation & Guides</a>
+       <img src="assets/icons/icon-ui-arrow-dropdown-white.png">
+        </p>
+        <ul class="accordion-content">
+          
+          <li><a href="" title="videos">videos</a></li>
+          
+          <li><a href="" title="Tonneau Cover Fitment Guide">Tonneau Cover Fitment Guide</a></li>
+          
+          <li><a href="/pages/tailgate-panel-guide" title="about truck beds">about truck beds</a></li>
+          
+          <li><a href="/pages/toyota-tacoma-truck-bed-bars" title="about roof top tents">about roof top tents</a></li>  
+        </ul>
+        
+      </div>
+      <div class="footer-links">
+        <p class="accordion-toggle">
+       <a href="" title="About">   About</a>
+       <img src="assets/icons/icon-ui-arrow-dropdown-white.png">
+        </p>
+        <ul class="accordion-content">
+          
+          <li><a href="" title="About Us">About Us</a></li>
+          <li><a href="" title="Our story">our story</a></li>
+          
+          <li><a href="" title="BillieBlog">BillieBlog</a></li>
+          
+        </ul>
+        
+      </div>
+      
+      
+      <div class="footer-links">
+        <p class="accordion-toggle">
+       <a href="" title="Contact">   Contact</a>
+       <img src="assets/icons/icon-ui-arrow-dropdown-white.png">
+        </p>
+        <ul class="accordion-content">
+          
+          <li><a href="" title="Contact Us">Contact Us</a></li>
+          
+          <li><a href="" title="FAQ">FAQ</a></li>
+          
+        </ul>
+        
+        <ul class="flex-wrap social-icons">
+    
+    <li>
+        <a href="" target="_blank" title="Facebook">
+            <div class="img-section"><img src="assets/icons/icon-social-facebook-green.png"></div>
+         <span>Facebook</span>
+        </a>
+    </li>
+    
+    
+    <li>
+        <a href="" target="_blank" title="Instagram">
+           <div class="img-section">  <img src="assets/icons/icon-social-instagram-green.png"></div>
+            <span>Instagram</span>
+        </a>
+    </li>
+     <li>
+        <a href="" target="_blank" title="twitter">
+             <div class="img-section"><img src="assets/icons/icon-social-twitter-green.png"></div>
+            <span>twitter</span>
+        </a>
+    </li>
+    <li>
+        <a href="" target="_blank" title="YouTube">
+             <div class="img-section"><img src="assets/icons/icon-social-youtube-green.png"></div>
+     <span>YouTube</span>
+        </a>
+    </li>
+    
+</ul>
     </div>
-   
+     </div>
+    <!-- Copyright -->
+    <div class="main-footer__copyright flex">
+      
+      <ul class="flex">
+        
+        <li><a href="" title="Legal Disclaimer">Legal Disclaimer</a></li>
+        
+        <li><a href="" title="Terms of Service">Terms of Service</a></li>
+        
+        <li><a href="" title="Refund policy">Refund policy</a></li>
+        
+      </ul>
+      <div class="copyright-section"> 
+        <p>© 2026 BillieBars. All Rights Reserved</p>
+      </div>
+
+    </div>
+  </div>
 </footer>
 <script src="js/modernizr-2.8.3.min.js"></script>
  <script src="js/swiper-bundle.min.js"></script>
-<script>
-    //about-us section
-    function toggleDescription() {
-    document.getElementById('descContainer').classList.toggle('is-open');
-}
-function searchoverlay() {
-    document.getElementById('searchOverlay').classList.toggle('is-show');
-}
-
-function closesearchoverlay() {
-    document.getElementById('searchOverlay').classList.remove('is-show');
-}
-
-// footer-node
-   function togglemanifest() {
-    document.getElementById('manifestlist').classList.toggle('footer-node-is-open');
-}
-  function toggleprojects() {
-    document.getElementById('projectslist').classList.toggle('footer-node-is-open');
-}
-  function toggleproducts() {
-    document.getElementById('productslist').classList.toggle('footer-node-is-open');
-}
-  function togglesupport() {
-    document.getElementById('supportlist').classList.toggle('footer-node-is-open');
-}
-
-</script>
-    <script>
-        //grid swipper
-      var swiper = new Swiper(".my-grid-swipper", {
-        slidesPerView:"auto",
-        loop: false,
-        watchOverflow: true,
-        slidesOffsetAfter:0,
-        
-      pagination: {
-        el: ".swiper-grid-pagination",
-        type: "progressbar",
-      },
-      navigation: {
-        nextEl: ".swiper-grid-button-next",
-        prevEl: ".swiper-grid-button-prev",
-      },
-    });
-    </script>
      <script>
-      var swiper = new Swiper(".my-list-swipper", {
+        //accessories section slider
+      var swiper = new Swiper(".swiper-card", {
         slidesPerView:"auto",
         loop: false,
         watchOverflow: true,
-        slidesOffsetAfter:0,
-        
-      pagination: {
-        el: ".swiper-list-pagination",
-        type: "progressbar",
-      },
+     
       navigation: {
-        nextEl: ".swiper-list-button-next",
-        prevEl: ".swiper-list-button-prev",
+        nextEl: ".swiper-card-button-next",
       },
     });
-     // product card swipper and tab fuctionality
-// Swiper core filters setup
-const allCardsBackup = Array.from(document.querySelectorAll('.mySwiper .c-card.swiper-slide'));
-
-var productSwiper = new Swiper(".mySwiper", {
-  slidesPerView: "auto",
-  spaceBetween: 20,
-  watchOverflow: false, 
-  cleanupStylesOnDestroy: false,
-  pagination: { el: ".swiper-pagination", type: "progressbar" },
-  navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-});
-
-function filterProductTabs(targetTab) {
-  productSwiper.removeAllSlides();
-  const filteredCards = allCardsBackup.filter(card => card.getAttribute('data-tab-group') === targetTab);
-  filteredCards.forEach(card => productSwiper.appendSlide(card));
-  productSwiper.update();
-  productSwiper.slideTo(0, 0); 
-}
-
-// === CUSTOM DROPDOWN INTERACTION ===
-const customDropdown = document.getElementById('customDropdown');
-const dropdownSelected = document.querySelector('.c-dropdown-custom__selected');
-const dropdownText = document.querySelector('.c-dropdown-custom__text');
-const dropdownOptions = document.querySelectorAll('.c-dropdown-custom__options li');
-
-// A. Click toggle menu open/close
-dropdownSelected.addEventListener('click', function(e) {
-  e.stopPropagation();
-  customDropdown.classList.toggle('is-open');
-});
-
-// B. Option item selection & Filtering
-dropdownOptions.forEach(option => {
-  option.addEventListener('click', function() {
-    const targetTab = this.getAttribute('data-value');
-    
-    dropdownText.innerText = this.innerText;
-    dropdownOptions.forEach(li => li.classList.remove('is-selected'));
-    this.classList.add('is-selected');
-
-    // Desktop tabs sync framework
-    document.querySelectorAll('.c-products__tabs li').forEach(item => {
-      item.classList.remove('is-active');
-      if (item.getAttribute('data-tab') === targetTab) {
-        item.classList.add('is-active');
-      }
+// three column section slider
+    var swiper = new Swiper(".three-column-slider", {
+        slidesPerView:"3",
+        loop: false,
+        watchOverflow: true,
+        breakpoints: {
+            0: {
+            slidesPerView: 1,
+        },
+        481: {
+            slidesPerView: 2,
+        },
+        769: {
+            slidesPerView: 3,
+        }
+    },
+     
+      navigation: {
+        nextEl: ".three-column-slider-button-next",
+        prevEl: ".three-column-slider-button-prev",
+      },
     });
-
-    filterProductTabs(targetTab);
-    customDropdown.classList.remove('is-open');
-  });
-});
-
-// Close dropdown if clicked outside anywhere
-document.addEventListener('click', () => {
-  if (customDropdown) customDropdown.classList.remove('is-open');
-});
-
-// === DESKTOP TABS CLICK EVENTS SYNC BACK TO MOBILE ===
-document.querySelectorAll('.c-products__tabs li').forEach(tab => {
-  tab.addEventListener('click', function() {
-    document.querySelectorAll('.c-products__tabs li').forEach(item => item.classList.remove('is-active'));
-    this.classList.add('is-active');
-
-    const targetTab = this.getAttribute('data-tab');
-    
-    dropdownOptions.forEach(li => {
-      li.classList.remove('is-selected');
-      if (li.getAttribute('data-value') === targetTab) {
-        li.classList.add('is-selected');
-        dropdownText.innerText = li.innerText;
-      }
+// hero section slider
+    var swiper = new Swiper(".hero-section-slide", {
+        slidesPerView:"1",
+        loop: false,
+        watchOverflow: true,
+     
+      navigation: {
+        nextEl: ".hero-slider-button-next",
+        prevEl: ".hero-slider-button-prev",
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:'true',
+    },
     });
-
-    filterProductTabs(targetTab);
-  });
+    // hero content slider in mobile
+    var swiper = new Swiper(".mobile-hero-slider", {
+        slidesPerView:"1",
+        loop: false,
+        watchOverflow: true,
+     
+      pagination: {
+        el: '.hero-swiper-pagination',
+        clickable:'true',
+    },
+    });
+    //fix header on scroll
+    window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header');
+    
+    
+    if (window.scrollY > 50) {
+        header.classList.add('sticky');
+    } else {
+        header.classList.remove('sticky');
+    }
 });
 
-// Default Load Setup
-document.addEventListener("DOMContentLoaded", () => filterProductTabs('tab1'));
+//for footer accordian
+document.querySelectorAll('.accordion-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function() {
+        const content = this.nextElementSibling; 
+        this.classList.toggle('active');
+    });
+});
+
     </script>
+  
 </body>
 </html>
